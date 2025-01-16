@@ -1,0 +1,11 @@
+select{
+    font-size: 20px;
+    background-color: rgb(56, 4, 36);
+    border-radius: 1cap;
+    padding: 10px 150px 10px 10px;
+    color: rgb(224, 199, 215);
+}
+
+label{
+    color: black;
+}

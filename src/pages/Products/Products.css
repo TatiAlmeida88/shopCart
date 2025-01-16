@@ -1,0 +1,92 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(102, 13, 68, 0.493);
+}
+
+header{
+    background-color: rgb(102, 13, 68);
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+
+div{
+    margin: auto;
+}
+
+img{
+    border-radius: 0.5cap;
+}
+
+h2, h3{
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+
+th{
+    color: rgb(194, 183, 190);
+    font-size: 20px;
+}
+
+.carrinhoBt{
+    float: right;
+}
+
+.titleProducts{
+    font-size: 50px;
+    color: black;
+}
+
+.produtos{
+    padding: 1px 30px 50px 30px;
+    margin: 30px;
+    background-color: rgba(102, 13, 68, 0.37);
+    border-radius: 5cap;
+    font-size: 25px;
+    color: rgb(75, 7, 49);
+}
+
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(192, 163, 181, 0.637);
+}
+
+.modal-content{
+    width: 90%;
+    max-width: 1000px;
+    background-color: rgba(102, 30, 74, 0.822);
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(36, 2, 23);
+    font-size: 20px;
+    margin: 100px;
+    border: 5px solid rgb(37, 4, 25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.quantidade{
+    padding: 1px 10px 1px 10px;
+    margin: 10px;
+}
+
+abbr{
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+
+td{
+    padding: 1px 10px 1px 10px;
+}
