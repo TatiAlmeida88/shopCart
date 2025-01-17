@@ -6,7 +6,7 @@ import './Login.css'
 
 export default function Login () {
     const [email, setEmail] = useState()
-    const [password, setPassword] = useState()
+    const [password, setPassword] = useState('')
     const [type, setType] = useState('password')
     const navigate = useNavigate()
 
@@ -33,7 +33,7 @@ export default function Login () {
                 <br /><br />
                 { type === 'password' ? <Eye onClick={ handleClick } size={32} color="white"/> : <EyeClosed onClick={ handleClick } size={32} color="white" />}
                 <br /><br />
-                <button type="submit" disabled={ !(EmailValidator.validate(email) && (password.length >= 8)) } onClick={ () => {navigate('/products')}} >Entrar</button>
+                <button type="submit" disabled={ !(EmailValidator.validate(email) && password.length >= 8) } onClick={ () => {navigate('/products')}} >Entrar</button>
                 <br /><br />
                 <Link to='/products'>Entrar como visitante</Link>
             </form>
